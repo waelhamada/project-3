@@ -1,0 +1,476 @@
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+*
+{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+body
+{
+	height: auto;
+	overflow-x:hidden ;
+	padding-top:70px;
+	
+}
+
+.navbar
+{
+	
+	background-color: #313131 !important;
+	height: 70px
+}
+
+p
+{
+	color:#777777;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h2
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2em;
+    font-weight: 700;
+}
+
+.navbar-brand>img
+{
+	padding: 0px 10px !important;
+	margin-left: 150px !important;
+}
+
+
+.navbar .collapse ul li 
+{
+	font-family: 'Poppins', sans-serif;
+	padding: 0px 25px;
+    font-weight: 600;
+    color: #ffffff;
+	font-size: 14px;
+
+}
+
+.navbar span
+{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+    color: #ffffff;
+	font-size: 20px;
+}
+
+.navbar .collapse .nav-item a
+{
+	padding: 0px 10px;
+	color: #fff;
+}
+
+.nav-item:after
+{
+	content:"";
+	height: 3px;
+	width: 80px;
+	background-color: red;
+	position: absolute;
+	top:67px;
+	left:690px;
+}
+
+.navbar .collapse .nav-item a:hover
+{
+	color: #f00;
+	
+	
+}
+
+.cover
+{
+	height: 660px;
+	background-image: url(../images/cover.jpg);
+	background-size: 100% 100%;
+	position: relative;	
+}
+
+.cover h1
+{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color:#fff;
+	font-size: 3.5em;
+	text-shadow: 0px 5px 10px #af2424;
+	padding-top: 150px !important;
+}
+
+.cover h2
+{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color:#fff;
+	
+	
+}
+
+.cover .layer
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(196, 45, 50, 0.68);
+	position: absolute;
+	top:0px;
+	left: 0px;
+}
+
+.cover .layer button
+{
+	padding: 10px 30px;
+	border: 2px solid #fff;
+	color:#fff;
+	background-color: transparent;
+	font-family: 'Poppins', sans-serif;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.cover .layer button:hover
+{
+	background-color: #fff;
+	color: rgba(196, 45, 50, 0.68);
+	cursor: pointer;
+	
+}
+
+.cover .layer .fa-angle-down
+{
+	position: relative;
+	-webkit-animation-name: moveicon;
+	animation-name: moveicon;
+	
+	-webkit-animation-duration:1s;
+	
+	animation-duration:1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-transition: all 0.5s;
+	-webkit-transition: all 2s;
+	transition: all 2s;
+}
+
+
+@-webkit-keyframes moveicon
+{
+ 0%{top:0px;}
+90%{top:20px;}
+100%{top:0px;}
+}
+
+
+@keyframes moveicon
+{
+ 0%{top:0px;}
+90%{top:20px;}
+100%{top:0px;}
+}
+
+.newclass1 h2
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.5em;
+    font-weight: 700;
+}
+
+.newclass1 p
+{
+	font-family: 'Poppins', sans-serif;
+     font-size: 16px;
+     font-weight: 300;
+      color: #777777;
+}
+
+.newclass2 h2
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2em;
+    font-weight: 700;
+}
+
+.newclass2 p
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #777777;
+}
+
+.newclass2 ul li
+{
+	display:inline-block;
+	color:#777777;
+	background-color: #fff;
+	border: 1px solid #777777;
+	margin-right: 10px;
+	padding: 5px 2px;
+	
+	
+	
+}
+
+.newclass2 ul li a
+{
+	text-decoration: none;
+	color:#777777;
+	font-size: 24px
+	
+}
+
+.newclass2 ul li:hover
+{
+	color:#fff;
+	background-color: #ec3237;
+	border:1px solid #ec3237;
+	
+}
+
+.newclass2 ul li a:hover
+{
+	color:#fff;
+}
+
+.newclass3 h2
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2em;
+    font-weight: 700;
+}
+
+.newclass3 p
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #777777;
+}
+
+.newclass4 h6
+{
+	color: #777777;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+.newclass4 span
+{
+	position: relative;
+}
+
+.newclass4 p
+{
+	color: #777777;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	position: absolute;
+	top: -20px;
+	right: 0px;
+	
+}
+
+.about1
+{
+	-webkit-transition: all 1s;
+	-webkit-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+#whatido
+{
+	background-color: #dfc;
+	padding-right: 50px;
+	margin-top: 50px;
+}
+
+.row .col-md i
+{
+	background-color: #eeeeee;
+	padding: 5px 10px;
+	font-size: 24px;
+	border-radius: 2px;
+	margin: 20px
+	
+}
+
+.row .col-md h4
+{
+
+	color:#313131;
+	font-size: 18px;
+	margin-top: 20px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 20px;
+
+}
+
+.row .col-md p
+{
+
+	color:#777777;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 20px;
+
+}
+
+.row .col-md:hover i
+{
+	background-color: #ec3237
+}
+
+.row .col-md:hover h4
+{
+	color: #ec3237
+}
+
+.layer2
+{
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/project-counter.jpg);
+	background-size: 100% 100%;
+		
+}
+
+.layer2 .col
+
+{
+	color:#fff;
+	margin-top: 100px;
+	border:1px solid red;
+	height: 200px;
+	padding:20px;
+	margin-right: 20px;
+	width:200px
+		
+}
+
+.class6 .card-body i
+{
+	font-size: 20px;
+	background-color: #000;
+	color:#fff;
+	padding: 10px;
+	border-radius: 50%;
+	position: absolute;
+	bottom:82px;
+	right: 150px;
+}
+
+.class6 .col:hover i
+{
+	background-color: #ec3237;
+	color:#fff;
+}
+
+.layer3
+{
+	width: 90% !important;
+	height:400px;	
+	background-image: url(../images/client-testimonial.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	overflow: hidden
+}
+
+.layer3 .col-6 p
+{
+	color:#fff
+
+}
+
+.layer3 .col-6 h2
+{
+	color:#ec3237;
+
+}
+
+.img_div1
+{
+	border: 3px solid #f00;
+	background-image: url(../images/jonathan-doe.jpg);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%
+	
+}
+
+.img_div2
+{
+	border: 3px solid #f00;
+	background-image: url(../images/dovi-delrito.jpg);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%
+	
+}
+
+.one
+{
+	padding-top: 30px;
+	margin: auto !important;
+	text-align: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+	border:1px solid #007bff;
+	border-radius: 20px;
+}
+
+#option-container
+{
+	
+	position: fixed;
+	z-index:444665;
+	top:100px;
+	left:5px;
+}
+
+#option
+{
+	background-color: #ccc;
+	float:left;
+	padding: 10px;
+	border:2px solid gray;
+	display: none;
+	
+}
+
+#option-container i
+{
+	float:left;
+	padding: 10px;
+	background-color: gray;
+	cursor: pointer;	
+	font-size: 20px;
+}
+
+#option ul li 
+{
+	display:inline-block;
+	padding:10px;
+	background-color: blue;
+	cursor: pointer;
+}
+
+#option img
+{
+	width:100px;
+	height:50px;
+	cursor: pointer;
+}
